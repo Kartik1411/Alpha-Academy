@@ -1,0 +1,26 @@
+.left{
+    width: 15%;
+    float: left;
+    background-color: #303960;
+    color: white;
+    height: 90vh;
+}
+
+ul li{
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    display: inline;
+}
+
+.links:hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.8s;
+    background-color: #ffffff;
+}
