@@ -10,7 +10,7 @@ function LeftSideBar () {
 
         <ul>
             <li>
-                <Link to="/" exact className="links"> Home </Link>
+                <Link to="/home" exact className="links"> Home </Link>
             </li>
             <li> 
                 <Link to="/physics" exact className="links"> Physics </Link>

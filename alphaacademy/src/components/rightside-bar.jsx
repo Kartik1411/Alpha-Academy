@@ -2,15 +2,26 @@ import React from 'react';
 import '../styles/right.css'
 import { Link } from 'react-router-dom';
 
-function Right () {
+function RightSideBar () {
 
     return(
     <section className="right">
-        <h1>
-            Hello
-        </h1>
+        <ul>
+            <li>
+                <Link to="/login-teacher" exact className="links"> Login as Teacher </Link>
+            </li>
+            <li>
+                <Link to="/login-student" exact className="links"> Login as Student </Link>
+            </li>
+            <li> 
+                <Link to="/practice" exact className="links"> Practice </Link>
+            </li>
+            <li> 
+                <Link to="/help" exact className="links"> Help </Link> 
+            </li>
+        </ul>
     </section>
     )
 }
 
-export default Right;
+export default RightSideBar;

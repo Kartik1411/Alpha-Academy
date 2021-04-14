@@ -1,5 +1,13 @@
 nav{
-    height: 10vh;
+    height: 12vh;
     background-color:#303960;
     color: white;
+    border-bottom: 1px solid white;
+}
+
+.icon-image{
+    height: 80px;
+    width: 80px;
+    padding:10px;
+    
 }
