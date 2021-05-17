@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/right.css'
+import '../styles/right.css';
 import { Link } from 'react-router-dom';
 
 function RightSideBar () {
